@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0987026C16494AAE00D02510 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0987026B16494AAE00D02510 /* main.c */; };
+		0987026E16494AAF00D02510 /* Bataille_Navale.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0987026D16494AAF00D02510 /* Bataille_Navale.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0987026516494AAE00D02510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0987026E16494AAF00D02510 /* Bataille_Navale.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0987026716494AAE00D02510 /* Bataille Navale */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bataille Navale"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0987026B16494AAE00D02510 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0987026D16494AAF00D02510 /* Bataille_Navale.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bataille_Navale.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0987026416494AAE00D02510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0987025C16494AAE00D02510 = {
+			isa = PBXGroup;
+			children = (
+				0987026A16494AAE00D02510 /* Bataille Navale */,
+				0987026816494AAE00D02510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0987026816494AAE00D02510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0987026716494AAE00D02510 /* Bataille Navale */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0987026A16494AAE00D02510 /* Bataille Navale */ = {
+			isa = PBXGroup;
+			children = (
+				0987026B16494AAE00D02510 /* main.c */,
+				0987026D16494AAF00D02510 /* Bataille_Navale.1 */,
+			);
+			path = "Bataille Navale";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0987026616494AAE00D02510 /* Bataille Navale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0987027116494AAF00D02510 /* Build configuration list for PBXNativeTarget "Bataille Navale" */;
+			buildPhases = (
+				0987026316494AAE00D02510 /* Sources */,
+				0987026416494AAE00D02510 /* Frameworks */,
+				0987026516494AAE00D02510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bataille Navale";
+			productName = "Bataille Navale";
+			productReference = 0987026716494AAE00D02510 /* Bataille Navale */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0987025E16494AAE00D02510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Héloïse Defize";
+			};
+			buildConfigurationList = 0987026116494AAE00D02510 /* Build configuration list for PBXProject "Bataille Navale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0987025C16494AAE00D02510;
+			productRefGroup = 0987026816494AAE00D02510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0987026616494AAE00D02510 /* Bataille Navale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0987026316494AAE00D02510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0987026C16494AAE00D02510 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0987026F16494AAF00D02510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0987027016494AAF00D02510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0987027216494AAF00D02510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0987027316494AAF00D02510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0987026116494AAE00D02510 /* Build configuration list for PBXProject "Bataille Navale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0987026F16494AAF00D02510 /* Debug */,
+				0987027016494AAF00D02510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0987027116494AAF00D02510 /* Build configuration list for PBXNativeTarget "Bataille Navale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0987027216494AAF00D02510 /* Debug */,
+				0987027316494AAF00D02510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0987025E16494AAE00D02510 /* Project object */;
+}
